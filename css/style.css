@@ -1,0 +1,230 @@
+*{
+    color:white;
+    text-align: center;
+    font-family: Verdana;
+    font-size: 14px;
+    position: relative;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+section{
+    margin-top: 10px;
+}
+body{
+    background-color: black;
+}
+span{
+    font-weight: 600;
+    color: black;
+    margin-left: 0px;
+}
+#first_screen{
+    margin-top: 30px;
+    background-color: #222222;
+}
+header{
+    height: 80px;
+}
+img{
+    vertical-align: middle;
+}
+ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    font-family: Verdana;
+    font-size: 14px;}
+.inline{
+    vertical-align: middle;
+    margin-left: 30px;
+    display: inline-block;
+}
+.header_right{
+    margin-left: 600px;
+}
+#fc_downside{
+    margin-top: 20px;
+    height: 550px;
+    align-content: flex-end;
+}
+.fc_block{
+    margin-top: 40px;
+    vertical-align: middle;
+    display: inline-block;
+    width: 440px;
+    height: 440px;
+    margin-left: 55px;
+    margin-right: 55px;
+}
+.fc_title{
+    font-weight: 600;
+    font-family: courier new;
+    float:right;
+    font-size: 45px;
+    width: 265px;
+    text-align: left;
+}
+.fc_description{
+    color: #d4d4d4;
+    font-size: 14px;
+    text-align: left;
+    margin-bottom: 60px;
+}
+#advantages{
+    height: 320px;
+}
+#adv_list{
+    padding-top: 50px;
+    margin-left: 120px;
+    margin-right: 120px;
+    align-items: center;
+    justify-content:space-between;
+    display: flex;
+    height: 250px;
+}
+.adv_part{
+    border-radius: 10px;
+    padding-top: 60px;
+    width: 180px;
+    height: 250px;
+    margin-bottom: 40px;
+}
+.adv_part:hover{
+    background-color: #3a3a3a;
+}
+.adv_part_text{
+    margin-top:20px;
+    color: #d4d4d4;
+    text-align: left;
+}
+#content{
+    background-color: white;
+    color: black;
+    height: 810px;
+}
+.content_title{
+    text-align: left;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: courier new;
+    color: black;
+}
+.content-text{
+    text-align: left;
+    color:black;
+}
+.downside_block{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 60px;
+    height: 265px;
+    width: 1000px;
+}
+.downside_list{
+    color:black;
+    width: 400px;
+    height: 200px;
+    display: inline-block;
+    vertical-align: middle;
+    
+}
+.downside_list_element{
+    margin-bottom: 20px;
+    color: black;
+    text-align: left;
+}
+.downside_list_element::before{
+    position: relative;
+    content: '00';
+    font-size: 7px;
+    color: orange;
+    height: 4px;
+    width: 4px;
+    border-radius: 50%;
+    background-color: orange;
+    left: -30px;
+    top: 0px;
+}
+.list_header{
+    text-align: left;
+    font-family: courier new;
+    font-weight: 600;
+    font-size:24px;
+    color: black;
+}
+#footer{
+    height: 300px;
+}
+.ft_block{
+    text-align: left;
+    vertical-align: baseline;
+    width: 180px;
+    display: inline-block;
+    height: 255px;
+    margin-left: 45px;
+    margin-right: 45px;
+    margin-top:35px;
+}
+.ft_upper_block{
+    display: inline-block;
+}
+.ft_lower_block{
+    margin-bottom: 60px;
+    text-align: left;
+    position: absolute;
+    bottom:0;
+}
+.ft_text{
+    font-size: 14px;
+    color: #d4d4d4;
+}
+.ft_header{
+    padding-bottom: 20px;
+    border-bottom: 1px solid #555555;
+    text-align: left;
+    font-weight: 600;
+    color: white;
+}
+.ft_list_element{
+    text-decoration: none;
+}
+.ft_a{
+    float: left;
+    margin-bottom: 20px;
+    color: 777777;
+    text-decoration: none;
+}
+h1{
+    font-size: 35px;
+}
+.add2{
+    text-align: left;
+    text-decoration: none;
+    margin-top: 60px;
+    border: solid #ffcb06;
+    background-color: #ffcb06;
+    color: black;
+    padding: 15px;
+    padding-left: 30px;
+    padding-right: 20px;
+    border-radius: 42px;
+    font-size: 20px;
+}
+.add2:hover{
+    text-decoration: none;
+    background-color: #ffd73e;
+}
+.add2:active{
+    background-color: #d4a800;
+}
+.add3{
+    margin-left: 10px;
+}
+b{
+    color: black;
+}
